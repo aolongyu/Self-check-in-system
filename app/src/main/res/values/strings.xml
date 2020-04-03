@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">自助签到系统</string>
+    <string name="Null">Loading...</string>
+    <string name="address">地址</string>
+    <string name="lat">纬度</string>
+    <string name="lon">经度</string>
+    <string name="time">时间</string>
+    <string name="ok">确认签到</string>
+    <string name="regist">去注册</string>
+</resources>

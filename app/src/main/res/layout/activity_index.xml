@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".IndexActivity">
+
+    <Button
+        android:id="@+id/mBtn_tosignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/button_circle"
+        android:gravity="center"
+        android:text="去签到"
+        android:textColor="@color/colorWrite"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/mBtn_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/button_circle"
+        android:gravity="center"
+        android:text="我的课程"
+        android:textColor="@color/colorWrite"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/mBtn_myinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/button_circle"
+        android:gravity="center"
+        android:text="我的信息"
+        android:textColor="@color/colorWrite"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/mBtn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/button_circle"
+        android:gravity="center"
+        android:text="退出"
+        android:textColor="@color/colorWrite"
+        android:textSize="16sp" />
+
+</LinearLayout>
